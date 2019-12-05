@@ -48,6 +48,7 @@ for( let i = 0; i < buttons.length; i++) {
 				+ ', '
 				+ color2.value 
 				+ ')'
+			css.textContent = body.style.background + ';';
 		}
 	})
 }
